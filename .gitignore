@@ -1,0 +1,30 @@
+# .gitignore
+# Ignorar o ambiente virtual
+.venv/
+
+# Ignorar o banco de dados SQLite
+*.sqlite3
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de cache do Django
+*/__pycache__/
+
+# Ignorar arquivos de mídia e estáticos gerados (se houver)
+media/
+static_root/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configurações locais (se você tiver um local_settings.py, por exemplo)
+# sistema_de_ferias/local_settings.py
+
+# Ignorar arquivos de IDEs (VS Code)
+.vscode/
+.history/
+
+# Ignorar arquivos de migração vazios (se você não quiser versionar)
+# */migrations/0*.py
